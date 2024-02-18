@@ -1,0 +1,46 @@
+TIPOS DE UTILIZAÇÃO DA FORMATAÇÃO CSS
+	External style sheet
+	
+	Inline style
+		Conseguimos aplicar o estilo direto na linha, ou dentro da tag html
+		Utilizando a tag style=""
+		Ex. <p style=" color: red;">
+
+	Internal style sheet
+		Dentro da tag head do nosso html, podemos criar uma folha de estilo interna
+		utilizando a tag <style type="text/css"> </style>. Para isso utilizamos seletores. Seletor é o nome da tag que deseja formatar:
+			p {
+				color: red;
+			}
+
+CLASSES E IDS
+	A classe é utilizada para identificar um grupo de "indivíduos", já o ID é único e identifica um "indivíduo" específico
+
+	Classe: O ponto define uma classe, o nome pode ser criado.
+	Ex. .azul{
+			color: blue;
+		}
+	Para utilizar a classe no html, devemos adicionar class="azul" dentro da tag
+
+	Identificador: O # define um identificador, o nome pode ser criado. Recomenda-se utilizar para estruturar o site
+	Ex. #principal {
+			background: grey;
+		}
+
+DIV E SPAN (Containers genéricos)
+	Div é utilizada para separar, organizar e aplicar estilos aos elementos da tela. Por padrão, ocupa toda a extensão da tela, chamamos de tipo block.
+	Ex. <div></div>
+
+	Span é como uma div, porém alinha os elementos um ao lado do outro
+	Ex. <span></span>
+
+PROPRIEDADES CSS
+	color 		= Altera a cor. Ex. red; blue; green;
+	background	= Altera a cor de fundo. Ex. grey; black; white;
+
+	border		= Cria uma borda. Parâmetros são: espessura(px), tipo e cor;
+	border-color: red green blue yellow;
+	border-width: 15px 10px 6px 1px;
+	border-style: solid dotted dashed outset;
+
+	/* */ 		= Comentários no código CSS
