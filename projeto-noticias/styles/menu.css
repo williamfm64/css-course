@@ -10,7 +10,7 @@ body {
 #header {
     height: 230px;
     background: url(../images/fundo.png) repeat-x;
-    
+    margin-bottom: 20px;
 }
 
 #menu {
@@ -53,5 +53,5 @@ a#last {
 }
 
 #navbar a:hover {
-    background-color: rgb(209, 1, 1);
+    background-color: rgb(206, 0, 0);
 }
