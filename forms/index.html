@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>
+        <link rel="stylesheet" type="text/css" href="./forms.css">
+    </head>
+    <body>
+        <div id="container">
+            <img src="./images/perfil.png">
+
+            <form>
+                <fieldset>
+                    <legend>Dados do contato</legend>
+                    <div>
+                        <input class="login" type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+                    </div>
+                    
+                    <div>
+                        <input class="email" type="text" name="email" id="email" placeholder="Digite seu email:">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentários</legend>
+
+                    <div>
+                        <label for="texto">Deixe seu comentário:</label>
+                        <textarea name="texto" id="texto"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Lembrar de mim</legend>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="lembrar" id="sim">Sim
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="lembrar" id="nao">Não
+                        </label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
